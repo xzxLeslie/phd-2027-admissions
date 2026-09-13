@@ -12,6 +12,7 @@
     { id: "singapore", label: "新加坡" },
     { id: "japan", label: "日本" },
     { id: "korea", label: "韩国" },
+    { id: "europe", label: "欧洲" },
   ];
   const DEGREES = [
     { id: "all", label: "全部学位" },
@@ -140,6 +141,7 @@
       ["图形学导师", facultyMeta.graphicsCount || facultyAll.filter((f) => f.hasGraphics).length],
       ["香港本地", n((r) => r.region === "hk")],
       ["美国", n((r) => r.region === "usa")],
+      ["欧洲", n((r) => r.region === "europe")],
     ]
       .map(([k, v]) => `<div class="stat"><b>${v}</b><span>${k}</span></div>`)
       .join("");

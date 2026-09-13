@@ -1996,11 +1996,459 @@ window.FACULTY_DATA = [
     "hasGraphics": true,
     "notes": "",
     "recruiting": null
+  },
+  {
+    "schoolKeys": [
+      "eth zurich"
+    ],
+    "name": "Olga Sorkine-Hornung",
+    "title": "Professor, Interactive Geometry Lab",
+    "homepage": "https://igl.ethz.ch/",
+    "interests": [
+      {
+        "text": "Computer Graphics",
+        "graphics": true
+      },
+      {
+        "text": "Geometry Processing",
+        "graphics": true
+      },
+      {
+        "text": "Shape Modeling / Fabrication",
+        "graphics": true
+      }
+    ],
+    "hasGraphics": true,
+    "notes": "",
+    "recruiting": true
+  },
+  {
+    "schoolKeys": [
+      "eth zurich"
+    ],
+    "name": "Markus Gross / Disney Research & ETH CGL",
+    "title": "Professor, Computer Graphics Laboratory",
+    "homepage": "https://cgl.ethz.ch/",
+    "interests": [
+      {
+        "text": "Computer Graphics",
+        "graphics": true
+      },
+      {
+        "text": "Animation / Rendering",
+        "graphics": true
+      }
+    ],
+    "hasGraphics": true,
+    "notes": "",
+    "recruiting": null
+  },
+  {
+    "schoolKeys": [
+      "eth zurich"
+    ],
+    "name": "Siyu Tang",
+    "title": "Assistant Professor (typical; verify)",
+    "homepage": "https://ait.ethz.ch/",
+    "interests": [
+      {
+        "text": "3D Human / Digital Humans",
+        "graphics": true
+      },
+      {
+        "text": "Computer Vision",
+        "graphics": false
+      },
+      {
+        "text": "AI",
+        "graphics": false
+      }
+    ],
+    "hasGraphics": true,
+    "notes": "",
+    "recruiting": null
+  },
+  {
+    "schoolKeys": [
+      "epfl"
+    ],
+    "name": "Wenzel Jakob",
+    "title": "Associate Professor, Realistic Graphics Lab",
+    "homepage": "https://rgl.epfl.ch/",
+    "interests": [
+      {
+        "text": "Physically Based Rendering",
+        "graphics": true
+      },
+      {
+        "text": "Differentiable / Inverse Rendering",
+        "graphics": true
+      },
+      {
+        "text": "Appearance Modeling",
+        "graphics": true
+      }
+    ],
+    "hasGraphics": true,
+    "notes": "Mitsuba renderer",
+    "recruiting": true
+  },
+  {
+    "schoolKeys": [
+      "epfl"
+    ],
+    "name": "EPFL Visual Computing / IVRL faculty",
+    "title": "IC School",
+    "homepage": "https://www.epfl.ch/schools/ic/",
+    "interests": [
+      {
+        "text": "Visual Computing",
+        "graphics": true
+      },
+      {
+        "text": "Computer Vision",
+        "graphics": false
+      },
+      {
+        "text": "Graphics",
+        "graphics": true
+      }
+    ],
+    "hasGraphics": true,
+    "notes": "",
+    "recruiting": null
+  },
+  {
+    "schoolKeys": [
+      "university of cambridge"
+    ],
+    "name": "Rafał Mantiuk / Cambridge Graphics & Displays",
+    "title": "Professor (verify current)",
+    "homepage": "https://www.cl.cam.ac.uk/",
+    "interests": [
+      {
+        "text": "Neural Rendering / Perception",
+        "graphics": true
+      },
+      {
+        "text": "Computer Graphics",
+        "graphics": true
+      }
+    ],
+    "hasGraphics": true,
+    "notes": "",
+    "recruiting": null
+  },
+  {
+    "schoolKeys": [
+      "university of oxford"
+    ],
+    "name": "Oxford Visual Geometry / Graphics-related faculty",
+    "title": "CS",
+    "homepage": "https://www.robots.ox.ac.uk/~vgg/",
+    "interests": [
+      {
+        "text": "3D Vision",
+        "graphics": true
+      },
+      {
+        "text": "Computer Vision",
+        "graphics": false
+      }
+    ],
+    "hasGraphics": true,
+    "notes": "",
+    "recruiting": null
+  },
+  {
+    "schoolKeys": [
+      "imperial college"
+    ],
+    "name": "Imperial Visual Computing / Graphics",
+    "title": "Computing",
+    "homepage": "https://www.imperial.ac.uk/computing/",
+    "interests": [
+      {
+        "text": "Computer Graphics",
+        "graphics": true
+      },
+      {
+        "text": "Vision / AI",
+        "graphics": false
+      }
+    ],
+    "hasGraphics": true,
+    "notes": "",
+    "recruiting": null
+  },
+  {
+    "schoolKeys": [
+      "technical university of munich",
+      "(tum)"
+    ],
+    "name": "TUM Visual Computing / Graphics faculty",
+    "title": "Informatics",
+    "homepage": "https://www.cs.tum.de/",
+    "interests": [
+      {
+        "text": "Computer Graphics",
+        "graphics": true
+      },
+      {
+        "text": "3D Vision",
+        "graphics": true
+      }
+    ],
+    "hasGraphics": true,
+    "notes": "",
+    "recruiting": null
+  },
+  {
+    "schoolKeys": [
+      "max planck institute for informatics",
+      "mpi-inf"
+    ],
+    "name": "Christian Theobalt",
+    "title": "Director, Visual Computing & AI",
+    "homepage": "https://www.mpi-inf.mpg.de/departments/visual-computing-and-artificial-intelligence",
+    "interests": [
+      {
+        "text": "Computer Graphics",
+        "graphics": true
+      },
+      {
+        "text": "Digital Humans / Neural Rendering",
+        "graphics": true
+      },
+      {
+        "text": "Computer Vision",
+        "graphics": false
+      },
+      {
+        "text": "AI",
+        "graphics": false
+      }
+    ],
+    "hasGraphics": true,
+    "notes": "",
+    "recruiting": true
+  },
+  {
+    "schoolKeys": [
+      "max planck institute for informatics",
+      "mpi-inf"
+    ],
+    "name": "Hans-Peter Seidel / Karol Myszkowski (Graphics)",
+    "title": "MPI-INF Graphics",
+    "homepage": "https://www.mpi-inf.mpg.de/",
+    "interests": [
+      {
+        "text": "Computer Graphics",
+        "graphics": true
+      },
+      {
+        "text": "Rendering / Perception",
+        "graphics": true
+      }
+    ],
+    "hasGraphics": true,
+    "notes": "",
+    "recruiting": null
+  },
+  {
+    "schoolKeys": [
+      "tu wien"
+    ],
+    "name": "TU Wien Computer Graphics",
+    "title": "Institute for Visual Computing",
+    "homepage": "https://www.cg.tuwien.ac.at/",
+    "interests": [
+      {
+        "text": "Computer Graphics",
+        "graphics": true
+      },
+      {
+        "text": "Visualization / Real-time Graphics",
+        "graphics": true
+      }
+    ],
+    "hasGraphics": true,
+    "notes": "",
+    "recruiting": true
+  },
+  {
+    "schoolKeys": [
+      "inria"
+    ],
+    "name": "Inria Graphics / Geometry / Vision teams",
+    "title": "Multiple centers",
+    "homepage": "https://jobs.inria.fr/",
+    "interests": [
+      {
+        "text": "Computer Graphics",
+        "graphics": true
+      },
+      {
+        "text": "Geometry Processing",
+        "graphics": true
+      },
+      {
+        "text": "Vision",
+        "graphics": false
+      }
+    ],
+    "hasGraphics": true,
+    "notes": "",
+    "recruiting": null
+  },
+  {
+    "schoolKeys": [
+      "kth royal"
+    ],
+    "name": "KTH Computer Vision / Graphics faculty",
+    "title": "EECS",
+    "homepage": "https://www.kth.se/",
+    "interests": [
+      {
+        "text": "Computer Vision",
+        "graphics": false
+      },
+      {
+        "text": "Graphics-related Visual Computing",
+        "graphics": true
+      },
+      {
+        "text": "AI",
+        "graphics": false
+      }
+    ],
+    "hasGraphics": true,
+    "notes": "",
+    "recruiting": null
+  },
+  {
+    "schoolKeys": [
+      "ku leuven"
+    ],
+    "name": "KU Leuven EAVISE / Graphics & Vision",
+    "title": "ESAT",
+    "homepage": "https://www.kuleuven.be/",
+    "interests": [
+      {
+        "text": "Computer Graphics / 3DGS avatars",
+        "graphics": true
+      },
+      {
+        "text": "Computer Vision",
+        "graphics": false
+      },
+      {
+        "text": "AI",
+        "graphics": false
+      }
+    ],
+    "hasGraphics": true,
+    "notes": "",
+    "recruiting": null
+  },
+  {
+    "schoolKeys": [
+      "university of copenhagen"
+    ],
+    "name": "UCPH IMAGE / Visual Computing",
+    "title": "DIKU",
+    "homepage": "https://di.ku.dk/",
+    "interests": [
+      {
+        "text": "Differentiable Rendering",
+        "graphics": true
+      },
+      {
+        "text": "Machine Learning",
+        "graphics": true
+      },
+      {
+        "text": "Vision",
+        "graphics": false
+      }
+    ],
+    "hasGraphics": true,
+    "notes": "",
+    "recruiting": null
+  },
+  {
+    "schoolKeys": [
+      "delft university",
+      "tu delft"
+    ],
+    "name": "TU Delft Computer Graphics & Visualization",
+    "title": "EEMCS",
+    "homepage": "https://www.tudelft.nl/",
+    "interests": [
+      {
+        "text": "Computer Graphics",
+        "graphics": true
+      },
+      {
+        "text": "Visualization",
+        "graphics": true
+      }
+    ],
+    "hasGraphics": true,
+    "notes": "",
+    "recruiting": null
+  },
+  {
+    "schoolKeys": [
+      "university of amsterdam",
+      "(uva)"
+    ],
+    "name": "UvA VIS / AI vision faculty",
+    "title": "Informatics",
+    "homepage": "https://www.uva.nl/",
+    "interests": [
+      {
+        "text": "Computer Vision",
+        "graphics": false
+      },
+      {
+        "text": "Generative AI",
+        "graphics": false
+      },
+      {
+        "text": "3D / Visual Computing",
+        "graphics": true
+      }
+    ],
+    "hasGraphics": true,
+    "notes": "",
+    "recruiting": null
+  },
+  {
+    "schoolKeys": [
+      "ellis"
+    ],
+    "name": "ELLIS units (graphics/vision PIs across Europe)",
+    "title": "Network",
+    "homepage": "https://ellis.eu/",
+    "interests": [
+      {
+        "text": "Machine Learning",
+        "graphics": true
+      },
+      {
+        "text": "Visual Computing (selected units)",
+        "graphics": true
+      }
+    ],
+    "hasGraphics": true,
+    "notes": "",
+    "recruiting": null
   }
 ];
 window.FACULTY_META = {
-  "count": 85,
-  "graphicsCount": 83,
+  "count": 104,
+  "graphicsCount": 102,
   "note": "图形学相关研究方向在界面中加粗显示；名单为申请导向抽样，非全系花名册。请以官网为准。",
   "generated": "2026-09-13"
 };

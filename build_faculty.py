@@ -990,6 +990,214 @@ F(
     ],
 )
 
+# ========== EUROPE ==========
+F(
+    ["eth zurich"],
+    "Olga Sorkine-Hornung",
+    "Professor, Interactive Geometry Lab",
+    "https://igl.ethz.ch/",
+    [
+        {"text": "Computer Graphics", "graphics": True},
+        {"text": "Geometry Processing", "graphics": True},
+        {"text": "Shape Modeling / Fabrication", "graphics": True},
+    ],
+    recruiting=True,
+)
+F(
+    ["eth zurich"],
+    "Markus Gross / Disney Research & ETH CGL",
+    "Professor, Computer Graphics Laboratory",
+    "https://cgl.ethz.ch/",
+    [
+        {"text": "Computer Graphics", "graphics": True},
+        {"text": "Animation / Rendering", "graphics": True},
+    ],
+)
+F(
+    ["eth zurich"],
+    "Siyu Tang",
+    "Assistant Professor (typical; verify)",
+    "https://ait.ethz.ch/",
+    [
+        {"text": "3D Human / Digital Humans", "graphics": True},
+        "Computer Vision",
+        "AI",
+    ],
+)
+F(
+    ["epfl"],
+    "Wenzel Jakob",
+    "Associate Professor, Realistic Graphics Lab",
+    "https://rgl.epfl.ch/",
+    [
+        {"text": "Physically Based Rendering", "graphics": True},
+        {"text": "Differentiable / Inverse Rendering", "graphics": True},
+        {"text": "Appearance Modeling", "graphics": True},
+    ],
+    notes="Mitsuba renderer",
+    recruiting=True,
+)
+F(
+    ["epfl"],
+    "EPFL Visual Computing / IVRL faculty",
+    "IC School",
+    "https://www.epfl.ch/schools/ic/",
+    [
+        {"text": "Visual Computing", "graphics": True},
+        "Computer Vision",
+        "Graphics",
+    ],
+)
+F(
+    ["university of cambridge"],
+    "Rafał Mantiuk / Cambridge Graphics & Displays",
+    "Professor (verify current)",
+    "https://www.cl.cam.ac.uk/",
+    [
+        {"text": "Neural Rendering / Perception", "graphics": True},
+        {"text": "Computer Graphics", "graphics": True},
+    ],
+)
+F(
+    ["university of oxford"],
+    "Oxford Visual Geometry / Graphics-related faculty",
+    "CS",
+    "https://www.robots.ox.ac.uk/~vgg/",
+    [
+        {"text": "3D Vision", "graphics": True},
+        "Computer Vision",
+    ],
+)
+F(
+    ["imperial college"],
+    "Imperial Visual Computing / Graphics",
+    "Computing",
+    "https://www.imperial.ac.uk/computing/",
+    [
+        {"text": "Computer Graphics", "graphics": True},
+        "Vision / AI",
+    ],
+)
+F(
+    ["technical university of munich", "(tum)"],
+    "TUM Visual Computing / Graphics faculty",
+    "Informatics",
+    "https://www.cs.tum.de/",
+    [
+        {"text": "Computer Graphics", "graphics": True},
+        {"text": "3D Vision", "graphics": True},
+    ],
+)
+F(
+    ["max planck institute for informatics", "mpi-inf"],
+    "Christian Theobalt",
+    "Director, Visual Computing & AI",
+    "https://www.mpi-inf.mpg.de/departments/visual-computing-and-artificial-intelligence",
+    [
+        {"text": "Computer Graphics", "graphics": True},
+        {"text": "Digital Humans / Neural Rendering", "graphics": True},
+        "Computer Vision",
+        "AI",
+    ],
+    recruiting=True,
+)
+F(
+    ["max planck institute for informatics", "mpi-inf"],
+    "Hans-Peter Seidel / Karol Myszkowski (Graphics)",
+    "MPI-INF Graphics",
+    "https://www.mpi-inf.mpg.de/",
+    [
+        {"text": "Computer Graphics", "graphics": True},
+        {"text": "Rendering / Perception", "graphics": True},
+    ],
+)
+F(
+    ["tu wien"],
+    "TU Wien Computer Graphics",
+    "Institute for Visual Computing",
+    "https://www.cg.tuwien.ac.at/",
+    [
+        {"text": "Computer Graphics", "graphics": True},
+        {"text": "Visualization / Real-time Graphics", "graphics": True},
+    ],
+    recruiting=True,
+)
+F(
+    ["inria"],
+    "Inria Graphics / Geometry / Vision teams",
+    "Multiple centers",
+    "https://jobs.inria.fr/",
+    [
+        {"text": "Computer Graphics", "graphics": True},
+        {"text": "Geometry Processing", "graphics": True},
+        "Vision",
+    ],
+)
+F(
+    ["kth royal"],
+    "KTH Computer Vision / Graphics faculty",
+    "EECS",
+    "https://www.kth.se/",
+    [
+        "Computer Vision",
+        {"text": "Graphics-related Visual Computing", "graphics": True},
+        "AI",
+    ],
+)
+F(
+    ["ku leuven"],
+    "KU Leuven EAVISE / Graphics & Vision",
+    "ESAT",
+    "https://www.kuleuven.be/",
+    [
+        {"text": "Computer Graphics / 3DGS avatars", "graphics": True},
+        "Computer Vision",
+        "AI",
+    ],
+)
+F(
+    ["university of copenhagen"],
+    "UCPH IMAGE / Visual Computing",
+    "DIKU",
+    "https://di.ku.dk/",
+    [
+        {"text": "Differentiable Rendering", "graphics": True},
+        "Machine Learning",
+        "Vision",
+    ],
+)
+F(
+    ["delft university", "tu delft"],
+    "TU Delft Computer Graphics & Visualization",
+    "EEMCS",
+    "https://www.tudelft.nl/",
+    [
+        {"text": "Computer Graphics", "graphics": True},
+        {"text": "Visualization", "graphics": True},
+    ],
+)
+F(
+    ["university of amsterdam", "(uva)"],
+    "UvA VIS / AI vision faculty",
+    "Informatics",
+    "https://www.uva.nl/",
+    [
+        "Computer Vision",
+        "Generative AI",
+        {"text": "3D / Visual Computing", "graphics": True},
+    ],
+)
+F(
+    ["ellis"],
+    "ELLIS units (graphics/vision PIs across Europe)",
+    "Network",
+    "https://ellis.eu/",
+    [
+        "Machine Learning",
+        {"text": "Visual Computing (selected units)", "graphics": True},
+    ],
+)
+
 meta = {
     "count": len(faculty),
     "graphicsCount": sum(1 for f in faculty if f["hasGraphics"]),
