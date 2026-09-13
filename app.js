@@ -121,6 +121,7 @@
       const b = document.createElement("button");
       b.type = "button";
       b.className = "pill" + (state[key] === opt.id ? " active" : "");
+      b.dataset.id = opt.id;
       b.textContent = opt.label;
       b.addEventListener("click", () => {
         state[key] = opt.id;

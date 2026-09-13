@@ -1,3 +1,5 @@
+﻿> **在线界面：** https://xzxleslie.github.io/phd-2027-admissions/  
+> 地区含 **欧洲**（ETH/EPFL/剑桥/TUM/MPI 等）。仓库源码页不会运行筛选按钮，请打开上面的 Pages 链接；看不到时按 Ctrl+F5。
 # 2027 CS/EE 研究生申请导航（本地网页）
 
 可离线打开、可打包分享的交互界面，覆盖：
@@ -46,3 +48,4 @@
 ## 来源索引
 
 见 `sources/SOURCES.md`
+
