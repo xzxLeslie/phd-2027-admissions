@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>2027 CS/EE 研究生申请导航 · 港美新日韩</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="app">
+    <header class="hero">
+      <div class="hero-top">
+        <div>
+          <p class="eyebrow">本地可分享 · 离线筛选 · 2027 入学周期</p>
+          <h1>计算机相关 PhD / 硕士申请导航</h1>
+          <p class="subtitle" id="metaLine">香港（含大陆分校）· 美国 · 新加坡 · 日本 · 韩国</p>
+        </div>
+        <div class="hero-actions">
+          <button type="button" class="btn" id="btnExport">导出当前筛选 CSV</button>
+          <button type="button" class="btn ghost" id="btnReset">重置筛选</button>
+        </div>
+      </div>
+      <div class="stats" id="stats"></div>
+      <p class="disclaimer" id="disclaimer"></p>
+    </header>
+
+    <section class="filters card">
+      <div class="filter-row">
+        <span class="label">学位</span>
+        <div class="pills" id="degreePills"></div>
+      </div>
+      <div class="filter-row">
+        <span class="label">地区</span>
+        <div class="pills" id="regionPills"></div>
+      </div>
+      <div class="filter-row">
+        <span class="label">资助</span>
+        <div class="pills" id="fundingPills"></div>
+      </div>
+      <div class="filter-row wrap">
+        <label class="field">
+          <span>关键词</span>
+          <input type="search" id="q" placeholder="学校 / 项目 / CS / EE / AI / HKPFS…" />
+        </label>
+        <label class="field">
+          <span>排序</span>
+          <select id="sort">
+            <option value="deadline">按截止日期</option>
+            <option value="region">按地区</option>
+            <option value="school">按学校名</option>
+            <option value="funding">按资助强度</option>
+          </select>
+        </label>
+        <label class="check">
+          <input type="checkbox" id="onlyHigh" />
+          仅显示高置信度条目
+        </label>
+        <label class="check">
+          <input type="checkbox" id="onlyGraphics" />
+          仅有图形学相关导师的学校
+        </label>
+      </div>
+    </section>
+
+    <section class="layout">
+      <aside class="list card" id="listPane"></aside>
+      <main class="detail card" id="detailPane">
+        <div class="empty">← 选择左侧条目查看申请时间、要求、注册网站、funding 与导师</div>
+      </main>
+    </section>
+
+    <footer class="foot">
+      <p>数据来源见 <code>sources/SOURCES.md</code>。双击打开本目录中的 <code>index.html</code> 即可分享（需同目录附带 css/js/data/faculty）。图形学相关研究方向在导师卡片中<strong>加粗</strong>显示。</p>
+    </footer>
+  </div>
+  <script src="data.js"></script>
+  <script src="faculty.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
